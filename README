@@ -5,3 +5,41 @@
 
 
 #USE Ajax
+
+#################################################
+#HOW TO USE THIS REPO
+Global setup:
+
+ Set up git
+  git config --global user.name "Your Name"
+  git config --global user.email frank_liuxf@yahoo.com
+        
+
+Next steps:
+
+  mkdir My-Home-Page
+  cd My-Home-Page
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:frank-jsks/My-Home-Page.git
+  git push -u origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:frank-jsks/My-Home-Page.git
+  git push -u origin master
+      
+
+Importing a Subversion Repo?
+
+  Click here
+      
+
+When you're done:
+
+  Continue
+
